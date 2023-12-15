@@ -2,8 +2,23 @@
     background-color: rgb(247, 50, 220);
     display: flex;
     justify-content: space-around;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-decoration: none;
+    /* position: absolute;
+    top: 0;
+    width: 100%; */
 }
-
+.element-menu {
+    text-decoration: none; 
+    color: black;
+}
+.button:hover{
+    border-radius: 10px;
+    background-color: rgb(252, 133, 236);
+}
 .about-me {
     background-color: rgb(247, 50, 220);
 }
@@ -26,15 +41,27 @@
 .logo {
     width: 250px;
     height: 200px;
-    border: solid 2px rgb(247, 50, 220);
-    border-radius: 40%;
+    border: solid 3px rgb(247, 50, 220);
+    border-radius: 50%;
+    transition: 2s;
 }
-
+.logo:hover{
+    box-shadow: 10px 10px 30px rgb(238, 95, 219);;
+    transform: scale(1.2);
+}
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+}
 .logo-footer {
     width: 200px;
     height: 150px;
     border: solid 2px rgb(247, 50, 220);
-    border-radius: 40%;
+    border-radius: 50%;
+    padding: 5px;
+}
+.contact-element{
+    padding: 5px;
 }
 
 
