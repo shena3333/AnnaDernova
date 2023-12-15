@@ -11,14 +11,17 @@
     top: 0;
     width: 100%; */
 }
+
 .element-menu {
-    text-decoration: none; 
+    text-decoration: none;
     color: black;
 }
-.button:hover{
+
+.button:hover {
     border-radius: 10px;
     background-color: rgb(252, 133, 236);
 }
+
 .about-me {
     background-color: rgb(247, 50, 220);
     font-size: 18px;
@@ -53,14 +56,18 @@
     border-radius: 50%;
     transition: 2s;
 }
-.logo:hover{
-    box-shadow: 10px 10px 30px rgb(238, 95, 219);;
+
+.logo:hover {
+    box-shadow: 10px 10px 30px rgb(238, 95, 219);
+    ;
     transform: scale(1.2);
 }
-.logo-container{
+
+.logo-container {
     display: flex;
     justify-content: space-around;
 }
+
 .logo-footer {
     width: 200px;
     height: 150px;
@@ -68,9 +75,11 @@
     border-radius: 50%;
     padding: 5px;
 }
-.contact-element{
+
+.contact-element {
     padding: 5px;
 }
+
 .container-paket {
     display: flex;
 }
@@ -82,9 +91,19 @@
     .body {
         width: 375px;
     }
+
     .container-paket {
         display: flex;
         flex-direction: column;
+    }
+
+    .logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        flex-wrap: wrap;
     }
 }
 
