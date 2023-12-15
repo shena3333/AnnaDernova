@@ -3,26 +3,39 @@
     display: flex;
     justify-content: space-around;
 }
-.about-me{
+
+.about-me {
     background-color: rgb(247, 50, 220);
 }
-.paket{
+
+.paket {
     background-color: rgb(247, 50, 220);
 }
+
 .footer {
     background-color: rgb(247, 50, 220);
+    display: flex;
+    justify-content: space-between;
 }
 
 .photo {
     width: 300px;
     height: 200px;
 }
+
 .logo {
     width: 250px;
     height: 200px;
+    border: solid 2px rgb(247, 50, 220);
+    border-radius: 40%;
 }
 
-
+.logo-footer {
+    width: 200px;
+    height: 150px;
+    border: solid 2px rgb(247, 50, 220);
+    border-radius: 40%;
+}
 
 
 
@@ -33,12 +46,14 @@
         width: 375px;
     }
 }
+
 @media screen and (max-width: 960px) {
     .body {
         width: 375px;
 
     }
 }
+
 @media screen and (max-width: 1200px) {
     .body {
         width: 375px;
