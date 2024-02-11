@@ -88,6 +88,9 @@ body {
     font-weight: 600;
     padding: 5px;
 }
+.test{
+    color: rgb(252, 6, 129);
+}
 
 .footer {
     background-color: rgb(247, 50, 220);
