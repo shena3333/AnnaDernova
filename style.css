@@ -81,7 +81,9 @@ body {
 }
 
 .paket {
-    background-color: rgb(247, 50, 220);
+    /* background-color: rgb(247, 50, 220); */
+    background-color: black;
+    color:    #ffd700;
     font-size: 18px;
     font-weight: 600;
     padding: 5px;
